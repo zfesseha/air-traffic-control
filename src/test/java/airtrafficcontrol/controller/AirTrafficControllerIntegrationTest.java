@@ -1,4 +1,4 @@
-package airtrafficcontrol;
+package airtrafficcontrol.controller;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;
@@ -29,7 +29,7 @@ public class AirTrafficControllerIntegrationTest {
 
     @Before
     public void setUp() throws Exception {
-        this.base = new URL("http://localhost:" + port + "/");
+        this.base = new URL("http://localhost:" + port + "/api/v1/queue/help");
     }
 
     @Test

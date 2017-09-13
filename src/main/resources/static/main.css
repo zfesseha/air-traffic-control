@@ -1,0 +1,30 @@
+input.field {
+    width: 90%;
+}
+
+.ac-input-group.form-group {
+    display: inline;
+}
+
+label.ac-label.control-label{
+    padding-right:10%;
+    /*position: relative;*/
+    display: inline-block;
+}
+
+button.btn.ac-button {
+    /*float: left;*/
+    margin-left: 1%;
+}
+
+select.ac-control.form-control {
+    /*width:40%;*/
+    /*position: relative;*/
+    margin-left: 1%;
+    display: inline;
+    float: left;
+}
+
+.jumbotron {
+
+}
