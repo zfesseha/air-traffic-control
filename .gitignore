@@ -7,6 +7,8 @@ out
 .idea
 *.iml
 node_modules
+.DS_Store
+
 zelenotes.txt
 
 # This should be excluded from source control but including to simplify the setup of environment needed to run this code.
